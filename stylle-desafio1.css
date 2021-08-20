@@ -1,0 +1,51 @@
+
+body {
+    zoom: 0.90
+}
+
+.primary {
+    
+    background-image: radial-gradient(circle at 50% -20.71%, #f2ff7c 0, #deff80 8.33%, #c8fe84 16.67%, #b2f888 25%, #9bef8c 33.33%, #84e58f 41.67%, #6cd890 50%, #55cb91 58.33%, #3fc091 66.67%, #26b693 75%, #00ad94 83.33%, #00a696 91.67%, #00a099 100%);
+    border: 10px solid;
+    border-color:rgb(46, 0, 250);
+    padding-left: 15px ;
+    padding-bottom: 15px;
+    padding-top: 15px ;
+    width: 380px;
+    height: 1000px;
+    margin: 20px auto 0px auto;
+    
+}
+
+
+.bordas-input {
+        border: 4px solid;
+        border-color: rgb(4, 19, 151);
+        border-radius: 10px;
+}
+
+.hvr-fade{
+    border: 5px solid;
+    border-radius: 10px;
+    
+}
+
+.color{
+    font-size: 25px;
+    color: rgb(89, 0, 255);
+    font-family: "nunito" ;
+    font-style: oblique;
+
+}
+
+p{
+    border: none;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.sex{
+    color: blue;
+    font-family: "nunito" ;
+    font-style: oblique;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylle-desafio1.css">
+    <link rel="stylesheet" type="text/css" href="./css/hover.css">
+    <link rel="stylesheet" type="text/css" href="./css/demo-page.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>LAYOUT--CADASTRO</title>
+</head>
+
+<body>
+    <div class="divv">
+
+        <form action="test.php" method="GET">
+            <div class="primary">
+
+                <div class="secundary">
+                    <label class="color"> Nome: </label>
+                    <p><input class="bordas-input" name="NOME" type="text" placeholder="digite seu nome "></p>
+                </div>
+
+                <div>
+                    <label class="color"> Email </label><br>
+                    <p><input class="bordas-input" name="EMAIL" type="email" placeholder="digite seu email"></p>
+                </div>
+
+                <div>
+                    <label class="color">Idade</label><br>
+                    <p><input class="bordas-input" name="idade" type="number" min="12" max="100"></p>
+                </div>
+
+                <div>
+                    <label class="color">Data de Nascimento </label><br>
+                    <p><input class="bordas-input" name="idade" type="date"></p>
+                </div>
+
+                <div>
+                    <label class="color">Onde você possui conta: </label>
+                    <p><input name="Instagran" type="checkbox"> <label class="color">Instagran</label><input
+                            name="facebook" type="checkbox">
+                        <label class="color">facebook</label><input name="youtube" type="checkbox"> <label
+                            class="color">Youtube</label>
+                    </p>
+                </div>
+
+                <div>
+                    <label class="color">Sexo</label><br>
+                    <p><input type="radio" name="sexo" value="op1"> <label class="sex">Masculino</label>
+                        <input type="radio" name="sexo" value="op2"> <label class="sex">Feminino </label>
+                    </p>
+
+                </div>
+
+                <div>
+                    <label class="color">Cor dos olhos </label><br>
+                    <p><input name="cordosolhos" type="color" value="#000000"></p>
+                </div>
+
+                <div>
+                    <label class="color">Biografia: </label><br>
+                    <p><textarea class="bordas-input" name="biografia"></textarea></p>
+                </div>
+
+                <div>
+                    <label class="color">Foto do perfil </label><br>
+                    <p><input class="bordas-input" name="foto-perfil" type="file" accept="image/*"></p>
+                </div>
+
+                <div>
+                    <label class="color">Telefone </label><br>
+                    <p><input class="bordas-input" name="telefone" type="number" placeholder="adicione seu numero"></p>
+                </div>
+
+                <div>
+                    <label class="color">Link do Facebook </label><br>
+                    <p><input class="bordas-input" name="link-facebook" type="url" placeholder="link do seu facebook">
+                    </p>
+                </div>
+
+                <div>
+                    <label class="color">Senha </label><br>
+                    <p><input class="bordas-input" name="senha" type="password" minlength="6" maxlength="8"
+                            placeholder=" escolha uma senha"></p>
+                </div>
+
+                </bra><button class="hvr-fade" type="reset">Limpar</button>
+                </bra><button class="hvr-fade" type="submit">Enviar Dados</button>
+
+            </div>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
